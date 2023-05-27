@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chance Nason</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/background-styles.css">
 </head>
 <body>
 <header>
-    <div class="container">
-        <h1>Chance Nason</h1>
-    </div>
+<div class="container">
+        <h1 class="flexItem flexItem--1">Chance Nason</h1>
     <!-- <nav>
         <ul>
             <li><a href="./index.html">AboutMe</a></li>
@@ -20,20 +20,22 @@
             <li><a href="./index.html">Contact</a></li>
         </ul>
     </nav> -->
+    <div class="flexItem flexItem--2">
         <p>
-            <img src="./assets/images/ProfilePic.png" alt="Picture of me"  width="20%">
+            <img src="./assets/images/ProfilePic.png" alt="Picture of me"  width="30%">
         </p>
-</header>
+    </div>
+<!-- </header> -->
 <section>
-    <div class="AboutMe">
+    <div class="flexItem flexItem--3">
         <h2>About Me</h2>
         <p> Hello, my name is Chance Nason. Currently I am employed by Amazon Air as a Load Planner for cargo aircraft. My responsibility is to plan all outbound 
             cargo positions on the aircraft, taking into account the planes center of gravity. I use various technologies to help with this, without this my job
             would be a lot harder. Working daily with this software has helped me find a passion to become a Software Developer so i can help innovate the next 
             big idea. My aspiration is being fulfilled by going through WeCanCodeIt Bootcamp so i can become a Software Developer.</p>
     </div>
-    <div class="Skills">
-        <h3>Technical Skills</h3>
+    <div class="flexItem flexItem--4">
+        <h2>Technical Skills</h2>
         <ol>
             <li>Software Languages</li>
                 <ul>
@@ -50,6 +52,7 @@
             <li>Computer Literacy</li>
         </ol>
     </div>
+</div>
 </section>
     <div class="Projects">
         <h2>Projects</h2>
@@ -93,7 +96,7 @@
         <label for="name">Name: </label>
         <input type="text" name="name" id="name" placeholder="First and Last">
         <label for="email">Email:</label>
-        <input type="email" name="email" id=" email" placeholder="email@address.com">
+        <input type="email" name="email" id=" email" placeholder="email@address.com" size="">
         <label for="phone">Phone:</label>
         <input type="tel" name="phone" id="phone" placeholder="555-555-5555">
         <input type="submit" value="Send">
