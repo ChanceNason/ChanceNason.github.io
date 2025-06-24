@@ -1,37 +1,40 @@
 html{
     background: rgba(45, 199, 255, 0.01);
 background: radial-gradient(circle,rgba(45, 225, 255, 1) 0%, rgba(0, 171, 231, 1) 50%, rgba(0, 100, 175, 1) 100%);
-
 }
-html, body {
-    height: 100vh;
-    width: 100vw;
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+  /* Horizontal List */
+.navBar ul {
+    list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-.page-container {
-    height: 100%;
-    width: 100%;
-    overflow: auto;  /* scroll internally if needed */
-    display: flex;
-    flex-direction: column;
 }
 
-.page {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+.navBar li {
+    margin: 0 1rem;
+    font-size: 32px;
 }
 
-.content {
-    flex: 1; /* takes remaining space */
-    overflow-y: auto;
-}
-
-.footer {
-    height: 60px;
-    background: #333;
+.navBar a {
+    text-decoration: none;
     color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navBar a:hover {
+    color: #00bfff;
 }
