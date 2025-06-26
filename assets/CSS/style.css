@@ -38,3 +38,24 @@ background: radial-gradient(circle,rgba(45, 225, 255, 1) 0%, rgba(0, 171, 231, 1
 .navBar a:hover {
     color: #00bfff;
 }
+
+@media (max-width: 769px) {
+    .navBar li {
+        margin: 0 1rem;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 426px) {
+    .navBar li {
+        margin: 0 1rem;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 376px) {
+    .navBar li {
+        margin: 0 1rem;
+        font-size: 8px;
+    }
+}
